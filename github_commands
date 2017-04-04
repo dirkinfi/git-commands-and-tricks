@@ -51,6 +51,12 @@ Shows a visual representation of the branches
 git merge master branche1
 Merges branche1 into master (run this while master is checked out)
 
+git remote add origin [github-URL]
+Adds the remote repository
+
+git push origin master
+Pushes all changes from the (local) branch 'master' to the (remote) branche 'origin'
+
 --------
 
 Setting Up Your Workspace On Mac
