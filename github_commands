@@ -45,6 +45,9 @@ Deletes (the label) 'branche1' (but retains all commits in it, if those are stil
 git checkout [commitnumber/branchname]
 Switches to an earlier commitnumber or to the specified branch
 
+git checkout [filename]
+Reverts the changes of that filename in your working directory to the current master (right?)
+
 git log --graph --oneline branche1 branche2
 Shows a visual representation of the branches
 
