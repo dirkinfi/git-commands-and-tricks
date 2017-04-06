@@ -65,6 +65,8 @@ Merges all the changes in the origin into your current master (to be checked!)
 
 git fetch origin
 Updates your local copy of the remote without changing your working directory.
+With  'git diff master origin/master' 
+you can see the diff between your local branch 'master' and the 'master' on remote 'origin'
 
 --------
 
