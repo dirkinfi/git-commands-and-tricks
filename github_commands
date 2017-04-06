@@ -60,6 +60,12 @@ Adds the remote repository
 git push origin master
 Pushes all changes from the (local) branch 'master' to the (remote) branche 'origin'
 
+git pull origin master
+Merges all the changes in the origin into your current master (to be checked!)
+
+git fetch origin
+Updates your local copy of the remote without changing your working directory.
+
 --------
 
 Setting Up Your Workspace On Mac
