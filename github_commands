@@ -52,7 +52,8 @@ git log --graph --oneline branche1 branche2
 Shows a visual representation of the branches
 
 git merge master branche1
-Merges branche1 into master (run this while master is checked out)
+Merges branche1 into master (run this while master is checked out).
+Run this command from the checkout you want the merge to be in.
 
 git remote
 Shows all remotes (-v makes it verbose)
@@ -64,12 +65,15 @@ git push origin master
 Pushes all changes from the (local) branch 'master' to the (remote) branche 'origin'
 
 git pull origin master
-Merges all the changes in the origin into your current master (to be checked!)
+Pulls the branch 'master' from the remote 'origin'.  Merges all the changes in the origin into 
+your current checked-out working copy / branch (to be checked!)
 
 git fetch origin
-Updates your local copy of the remote without changing your working directory.
-With  'git diff master origin/master' 
-you can see the diff between your local branch 'master' and the 'master' on remote 'origin'
+Updates your local copy of the remote without changing your working directory. So if you are currently in 'master' (locally) 
+a new branch 'origin/master' will be created without merging it with 'master'.
+You can then see the diff between your local branch 'master' and your new local branch 'origin/master' with:
+   'git diff master origin/master' 
+
 
 --------
 
