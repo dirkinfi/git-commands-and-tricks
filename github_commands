@@ -54,6 +54,9 @@ Shows a visual representation of the branches
 git merge master branche1
 Merges branche1 into master (run this while master is checked out)
 
+git remote
+Shows all remotes (-v makes it verbose)
+
 git remote add origin [github-URL]
 Adds the remote repository
 
