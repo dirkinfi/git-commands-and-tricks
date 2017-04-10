@@ -66,7 +66,7 @@ Pushes all changes from the (local) branch 'master' to the (remote) branche 'ori
 
 git pull origin master
 Pulls the branch 'master' from the remote 'origin'.  Merges all the changes in the origin into 
-your current checked-out working copy / branch (to be checked!)
+your local master-branch
 
 git fetch origin
 Updates your local copy of the remote without changing your working directory. So if you are currently in 'master' (locally) 
