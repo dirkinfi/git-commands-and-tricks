@@ -52,8 +52,8 @@ git log --graph --oneline branche1 branche2
 Shows a visual representation of the branches
 
 git merge master branche1
-Merges branche1 into master (run this while master is checked out).
-Run this command from the checkout you want the merge to be in.
+Merges branche1 and master into the branch that is checked out (eg 'master' or 'branche1').
+So run this command from the checkout you want the merge to be in.
 
 git remote
 Shows all remotes (-v makes it verbose)
