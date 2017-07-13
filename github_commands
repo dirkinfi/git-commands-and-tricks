@@ -43,7 +43,7 @@ git branch -d branche1
 Deletes (the label) 'branche1' (but retains all commits in it, if those are still reachable)
 
 git checkout [commitnumber/branchname]
-Switches to an earlier commitnumber or to the specified branch
+Switches to an earlier commitnumber or to the specified branch ('git checkout .' throws out all your local changes and reverts to the last commit)
 
 git checkout -- [filename]
 Reverts the changes of that filename in your working directory to the current master (right?)
