@@ -8,7 +8,7 @@ git log
 List of every commit that has been made in the branch you have currently checked out
 
 git diff
-Shows the differences between working directory and staging
+Shows the differences between working directory and staging (close with Q)
 
 git diff --staged
 Shows the differences between staged and repository
